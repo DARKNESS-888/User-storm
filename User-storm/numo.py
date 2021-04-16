@@ -14,8 +14,8 @@ os.system('clear')
 os.system('pkg install figlet')
 os.system('figlet Done!')
 os.system('>Auto__int__Num.txt')
-for v in range(500):
- fromm = input ('Enter the country code: +')
+for v in range(10000):
+ fromm = "20"
  ssl = open('Auto__int__Num.txt',"a")
  codec = "+"
  ssl.write("\n" +codec +fromm +createpass(10))
